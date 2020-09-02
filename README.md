@@ -236,7 +236,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q23. What is the best way to code three choices within a form so that the user can select only one item?
 
-- 
+- [ ]
 ```
 <label for="example">Make a choice:</label>
 <datalist id="example">
@@ -246,7 +246,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [ ]
 ```
 <p>Make a choice:</p>
 <input id="choices" name="example" />
@@ -258,7 +258,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [ ]
 ```
 <label for="example">Make a choice:</label>
 <input list="example" id="choices" name="choices" />
@@ -270,7 +270,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+-  [x]
 ```
 <label for="example">Make a choice:</label>
 <input list="choices" id="example" name="example" />
@@ -281,7 +281,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 	<option value="Choice 3">
 </datalist>
 ```
-^^ CORRECT ^^
+
 
 #### Q24. How do you confirm that a document is written in HTML5?
 
@@ -307,7 +307,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
   
 #### Q26. What code will produce the table shown below?
 
-- 
+- [ ]
 ```
 <table>
 	<scope cols="2" style="background-color: yellow">
@@ -324,7 +324,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- 
+- [x]
 ```
 <table>
 	<colgroup span="2" style="background-color: yellow">
@@ -340,9 +340,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 	</tr>
 </table>
 ```
-^^ CORRECT ^^
 
-- 
+
+- [ ]
 ```
 <table>
 	<group cols="2" style="background-color: yellow">
@@ -359,7 +359,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- 
+- [ ]
 ```
 <table>
 	<columns colspqn="2" style="background-color: yellow">
@@ -401,26 +401,25 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q29. Which HTML snippet links back to the very top of a webpage?
 
-- 
+- [x]
 ```
 <a id="top"></a> <!-- placed at the top of the page -->  
 <a href="#top">back to top</a>
 ```
-^^ CORRECT ^^
 
-- 
-```
-<a name="top"></a> <!-- placed at the top of the page -->  
+
+- [ ]
+```<a name="top"></a> <!-- placed at the top of the page -->  
 <a href="#top">back to top</a>
 ```
 
-- 
+- [ ]
 ```
 <a href="#">back to top</a>  
 <a href="#top">back to top</a>
 ```
 
-- 
+- [ ]
 ```
 <button href="#">back to top</button>  
 <button href="#top">back to top</button>
@@ -429,7 +428,6 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 #### Q30. Which three tags where deprecated in HTML4 but returned to HTML5?
 
 - [x] ` <rb> <rp> <rt>`
-
 
 - [ ] `<acronym> <code> <wbr>`
 
