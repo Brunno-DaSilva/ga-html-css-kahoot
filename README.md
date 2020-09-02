@@ -1,4 +1,4 @@
-## HTML Assessment
+## HTML and CSS Assessment
 
 #### Q1. What is the purpose of the `<track>` tag, and when should it be used?
 
@@ -428,61 +428,25 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q30. Which three tags where deprecated in HTML4 but returned to HTML5?
 
-- 
-```
-<rb>
-<rp>
-<rt>
-```
-^^ CORRECT ^^
+- [x] ` <rb> <rp> <rt>`
 
-- 
-```
-<acronym>
-<code>
-<wbr>
-```
 
-- 
-```
-<hgroup>
-<q>
-<wbr>
-```
+- [ ] `<acronym> <code> <wbr>`
 
-- 
-```
-<b>
-<i>
-<u>
-```
+- [ ] `<hgroup> <q> <wbr>`
+
+- [ ] `<b><i><u>`
 
 #### Q31. The "______"tag is used for marking up a short code snippet, while the ______ tag is used for marking up a longer block of code.
 
-- 
-```
-"<kdb>";
-<pre>
-```
+- [ ] `"<kdb>"; <pre>`
 
-- 
-```
-"<pre>";
-<code>
-```
+- [ ] `"<pre>"; <code>`
 
-- 
-```
-"<kdb>";
-<mark>
-```
+- [ ] `"<kdb>";<mark>`
 
-- 
-```
-"<code>";
-<pre>
-```
-^^ CORRECT ^^
+- [x] `"<code>";<pre>`
+
 
 #### Q32. What does the `<label>` tag do?
 
